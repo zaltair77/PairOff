@@ -56,25 +56,28 @@ empty($_POST['lastName']))
 <fieldset id="registerFieldset">
   <legend><h2>Register Your Account</h2></legend>
   <form method="post" id="register">
-    <label for="username">Username</label>
-    <input type="text" name="username" value="">
+    <label class="inputLabel" for="username">Username</label>
+    <input class="inputText" type="text" name="username" value="">
     <br>
 
-    <label for="Password">Password</label>
-    <input type="password" name="password" id="password">
+    <label class="inputLabel" for="Password">Password</label>
+    <input class="inputText" type="password" name="password" id="password">
     <br>
 
-    <label for="confirmPassword">Confirm Password</label>
-    <input type="password" name="confirmPassword" id="confirmPassword">
+    <label class="inputLabel" for="confirmPassword">Confirm Password</label>
+    <input class="inputText" type="password" name="confirmPassword" id="confirmPassword">
     <br>
 
-    <label for="firstName">First Name</label>
-    <input type="text" name="firstName" id="firstName">
+    <label class="inputLabel" for="firstName">First Name</label>
+    <input class="inputText" type="text" name="firstName" id="firstName">
     <br>
 
-    <label for="lastName">Last Name</label>
-    <input type="text" name="lastName" id="lastName">
+    <label id="lastName" class="inputLabel" for="lastName">Last Name</label>
+    <input class="inputText" type="text" name="lastName" id="lastName">
     <br>
+
+    <label id="adminCheck">I am an Admin</label>
+    <input id="isAdmin" type="checkbox" name="adminCheck">
 
     <button>Register</button>
   </form>

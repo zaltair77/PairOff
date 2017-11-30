@@ -23,8 +23,7 @@
     <li><div class="dropdown"><span>
           <a id="admin-link">Admin</a>
           <div class="dropdown-content">
-            <a class="<?php echo ($page ==='viewDB' ? 'active-link' : '') ?>" href="#">View Database</a>
-            <a class="<?php echo ($page ==='organization' ? 'active-link' : '') ?>" href="#">Organization</a>
+            <a class="<?php echo ($page ==='viewDB' ? 'active-link' : '') ?>" href="viewDatabase">View Database</a>
             <a class="<?php echo ($page ==='activities' ? 'active-link' : '') ?>" href="#">Activities</a>
           </div>
       </span></div></li>

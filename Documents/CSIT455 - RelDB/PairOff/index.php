@@ -4,9 +4,6 @@
 <?php require "utilities.php" ?>
 
 
-
-<br>
-<br>
-<br>
+<h1 id="mainTitle">Welcome to PairOff!</h1>
 
 <?php require "footer.php" ?>
